@@ -1,0 +1,4 @@
+{
+  "gtstartup install": ["gtstartup:_Spinning_up_development_GT_images_quickly.md"],
+  "sbcli": ["sbcli.md"]
+}
