@@ -116,7 +116,7 @@ def cmd_sweep(args: argparse.Namespace) -> int:
 
 
 def make_parser() -> argparse.ArgumentParser:
-    ap = argparse.ArgumentParser(prog="blog-reranker", description="Tiny reranker")
+    ap = argparse.ArgumentParser(prog="reranker", description="Tiny reranker")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     common = argparse.ArgumentParser(add_help=False)

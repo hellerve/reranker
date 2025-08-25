@@ -1,6 +1,6 @@
 # reranker
 
-A tiny rearanker built on cross-encoding. It:
+A tiny reranker built on cross-encoding. It:
 
 - loads `.md` posts (title, summary, body)
 - retrieves top-N candidates with a **bi-encoder** (fast)
@@ -37,7 +37,7 @@ python -m reranker.cli search \
 ## Usage
 
 ```
-usage: blog-reranker [-h] {search,eval,sweep} ...
+usage: reranker [-h] {search,eval,sweep} ...
 
 Tiny reranker
 
